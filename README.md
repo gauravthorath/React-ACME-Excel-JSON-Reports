@@ -1,2 +1,3 @@
 # ACME
-Software to help and analyze  their sales
+
+Application to generate sales summaries by categories and Ingest monthly reports
