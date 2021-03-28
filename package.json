@@ -2,9 +2,8 @@
   "name": "acmepackages",
   "version": "1.0.0",
   "description": "Application to generate sales summaries by categories and Ingest monthly reports",
-  "main": "app.js",
   "scripts": {
-    "test": "node server.js"
+    "start": "node ./src/app.js"
   },
   "repository": {
     "type": "git",
@@ -22,6 +21,7 @@
   "dependencies": {
     "ejs": "^3.1.6",
     "express": "^4.17.1",
-    "lodash": "^4.17.21"
+    "lodash": "^4.17.21",
+    "prompt-sync": "^4.2.0"
   }
 }
